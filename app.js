@@ -4,6 +4,6 @@ function greet(name) {
         return "Hello, world!";
     }
     // La nouvelle fonctionnalité : salutation personnalisée en majuscule
-    return `Hello, ${name.toUpperCase()}!`;
+    return `Hello, ${name}!`;
 }
 module.exports = greet;
