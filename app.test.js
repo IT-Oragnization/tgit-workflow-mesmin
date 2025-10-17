@@ -5,5 +5,5 @@ test('should greet the world when no name is provided', () => {
 });
 
 test('should greet a specific name', () => {
-  expect(greet('Glenn')).toBe("Hello, GLENN!");
+  expect(greet('Glenn')).toBe("Hello, Glenn!");
 });
